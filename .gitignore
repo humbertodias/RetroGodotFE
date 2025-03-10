@@ -13,3 +13,29 @@ export_presets.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+
+# Godot 4+ specific ignores
+.godot/
+project/bin
+project/addons/*/bin
+.sconsign*.dblite
+
+# Binaries
+*.o
+*.os
+*.so
+*.obj
+*.bc
+*.pyc
+*.dblite
+*.pdb
+*.lib
+bin
+*.config
+*.creator
+*.creator.user
+*.files
+*.includes
+*.idb
+*.exp
